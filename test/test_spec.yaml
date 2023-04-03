@@ -452,7 +452,7 @@ SciViz: # top level tab
                 - test_group1_simple.TableB
               presets: >
                 def presets():
-                    return {'preset 1': {'b_id': 14}}
+                    return {'preset 1': {'b_id': 14, 'test_group1_simple.TableB.b_number' : 28, 'someschemathatdoesnotexist.bsdawd.attribute' : 28}}
             Table C:
               route: /insert3
               x: 0
